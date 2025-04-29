@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    background-color: #F7F8F9;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profileCard{
+    background-color: #F7F8F9;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted #CBCBCB; 
+}
+img{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;  
+    object-fit: cover; 
+
+}
+#block1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+#block2{
+    display : flex;
+    flex-direction: column;
+    gap : 0px;
+}
+
+@media (min-width : 450px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: first baseline ;
+    }
+    nav{
+        width : 100vw
+    }
+    
+}
