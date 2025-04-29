@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import LandingScreen from './components/landingScreen'
+import LandingScreen from './components/LandingScreen'
 import SignUp from './components/SignUp'
 import Login from './components/Login'
 import Display from './components/Display'
